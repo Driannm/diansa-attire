@@ -1,6 +1,6 @@
 "use client";
 
-import { CircleAlert } from "lucide-react";
+import { CircleAlert, Infinity } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -8,7 +8,7 @@ const steps = [
   {
     title: "1. Jelajahi Katalog",
     subtitle: "Pilih model & tema",
-    time: "30 menit",
+    time: "infinity",
     desc: "Lihat koleksi kebaya berdasarkan kategori (Nikah, Lamaran, Wisuda). Gunakan filter ukuran, warna, atau budget.",
     action: { href: "/kebaya", label: "Lihat Katalog" },
   },
@@ -41,7 +41,7 @@ const steps = [
   {
     title: "6. Kirim / Ambil",
     subtitle: "Delivery atau pickup",
-    time: "1–3 hari sebelum acara",
+    time: "1–7 hari sebelum acara",
     desc: "Pilih opsi antar (dikirim ke alamat acara) atau ambil di studio. Cek jadwal pengiriman agar tiba tepat waktu.",
     action: { href: "/help/delivery", label: "Opsi Pengiriman" },
   },
@@ -86,8 +86,12 @@ export default function RentFlow() {
                 <div className="w-12 h-12 rounded-full bg-pink-600 text-white flex items-center justify-center font-bold text-lg shadow-md">
                   {idx + 1}
                 </div>
-                <span className="text-xs font-medium text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full">
-                  {step.time}
+                <span className="text-xs font-medium text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full flex items-center gap-1">
+                  {step.time === "infinity" ? (
+                    <Infinity className="w-4 h-4 ext-gray-500 dark:ext-gray-400" />
+                  ) : (
+                    step.time
+                  )}
                 </span>
               </div>
 
