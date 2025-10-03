@@ -1,5 +1,7 @@
 import { CalendarSearch } from "lucide-react";
 import ReviewPage from "./components/ReviewPage";
+import GroupingCatalog from "./components/GroupingCatalog";
+import RentFlow from "./components/RentFlow";
 
 export default function Home() {
   return (
@@ -18,7 +20,7 @@ export default function Home() {
       {/* CTA */}
       <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
         <a
-          href="/kebaya"
+          href="/collections"
           className="flex items-center justify-center px-6 py-3 rounded-lg bg-pink-400 text-white text-base font-semibold hover:bg-pink-500 transition"
         >
           <CalendarSearch className="mr-2 w-5 h-5" />
@@ -36,6 +38,15 @@ export default function Home() {
       <div className="mt-22 w-full">
         <ReviewPage />
       </div>
+
+      {/* Catalog */}
+      <section className="mt-12">
+        <GroupingCatalog />
+      </section>
+
+      <section className="mt-12">
+        <RentFlow />
+      </section>
     </div>
   );
 }
