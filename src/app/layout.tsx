@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import { Bricolage_Grotesque, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import GroupingCatalog from "./components/GroupingCatalog";
-import RentFlow from "./components/RentFlow";
-import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import FAQ from "./components/FAQ";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -40,16 +38,7 @@ export default function RootLayout({
           {/* Konten utama */}
           <main className="mt-6">{children}</main>
 
-          {/* Catalog */}
-          <section className="mt-12">
-            <GroupingCatalog />
-          </section>
-          
-          <section className="mt-12">
-            <RentFlow />
-          </section>
-          
-          <section className="mt-12">
+          <section className="mt-16 mb-20">
             <FAQ />
           </section>
 
