@@ -12,16 +12,7 @@ const CollectionsPage = () => {
       available: true,
       category: "Wisuda",
       badge: "Rekomendasi Admin",
-      imageUrl: "/images/wisuda-dewi-danu-kebaya-in-cerulean-blue.jpg",
-    },
-    {
-      name: "Nyai Balau Kebaya",
-      price: 380000,
-      size: "S",
-      available: true,
-      category: "Wisuda",
-      badge: "Top Bulan Ini",
-      imageUrl: "/images/wisuda-nyai-balau-kebaya.jpg",
+      imageUrl: "/images/wisuda-dewi-danu-kebaya-in-cerulean-blue.webp",
     },
     {
       name: "Nyai Balau Kebaya in Terracotta",
@@ -29,7 +20,7 @@ const CollectionsPage = () => {
       size: "M",
       available: false,
       category: "Wisuda",
-      imageUrl: "/images/wisuda-nyai-balau-kebaya-in-terracotta.jpg",
+      imageUrl: "/images/wisuda-nyai-balau-kebaya-in-terracotta.webp",
     },
     {
       name: "Roro Jonggrang Kebaya in Burgundy",
@@ -38,7 +29,7 @@ const CollectionsPage = () => {
       available: true,
       category: "Wisuda",
       badge: "Rekomendasi Admin",
-      imageUrl: "/images/wisuda-roro-jonggrang-kebaya-in-burgundy.jpg",
+      imageUrl: "/images/wisuda-roro-jonggrang-kebaya-in-burgundy.webp",
     },
     {
       name: "Raja Gagak & Putri Napal Melintang Kebaya in Cerulean Blue",
@@ -47,7 +38,7 @@ const CollectionsPage = () => {
       available: true,
       category: "Wisuda",
       badge: "Best Seller",
-      imageUrl: "/images/wisuda-raja-gagak-putri-napal-melintang-kebaya-in-cerulean-blue.jpg",
+      imageUrl: "/images/wisuda-raja-gagak-putri-napal-melintang-kebaya-in-cerulean-blue.webp",
     },
     {
       name: "Calon Arang Kebaya in Burgundy",
@@ -55,7 +46,7 @@ const CollectionsPage = () => {
       size: "S",
       available: true,
       category: "Wisuda",
-      imageUrl: "/images/wisuda-calon-arang-kebaya-in-burgundy.jpg",
+      imageUrl: "/images/wisuda-calon-arang-kebaya-in-burgundy.webp",
     },
     {
       name: "Dua Putri & Raja Ular Kebaya in Powder Pink on Periwinkle",
@@ -64,7 +55,7 @@ const CollectionsPage = () => {
       available: false,
       category: "Wisuda",
       badge: "Top Bulan Ini",
-      imageUrl: "/images/wisuda-dua-putri-raja-ular-kebaya-in-powder-pink-on-periwinkle.jpg",
+      imageUrl: "/images/wisuda-dua-putri-raja-ular-kebaya-in-powder-pink-on-periwinkle.webp",
     },
     {
       name: "Pesut Mahakam Kebaya in Dusty Pink on Dust Blue",
@@ -72,7 +63,7 @@ const CollectionsPage = () => {
       size: "L",
       available: true,
       category: "Wisuda",
-      imageUrl: "/images/wisuda-pesut-mahakam-kebaya-in-dusty-pink-on-dust-blue.jpg",
+      imageUrl: "/images/wisuda-pesut-mahakam-kebaya-in-dusty-pink-on-dust-blue.webp",
     },
     {
       name: "Putri Mandalika Kebaya in Ombre Dusty Pink",
@@ -81,7 +72,7 @@ const CollectionsPage = () => {
       available: true,
       category: "Wisuda",
       badge: "Rekomendasi Admin",
-      imageUrl: "/images/wisuda-putri-mandalika-kebaya-in-ombre-dusty-pink.jpg",
+      imageUrl: "/images/wisuda-putri-mandalika-kebaya-in-ombre-dusty-pink.webp",
     },
     {
       name: "Natuna Mythic Rhythm Dress in Taupe",
@@ -90,7 +81,7 @@ const CollectionsPage = () => {
       available: true,
       category: "Nikah",
       badge: "Top Bulan Ini",
-      imageUrl: "/images/nikah-natuna-mythic-rhythm-dress-in-taupe.jpg",
+      imageUrl: "/images/nikah-natuna-mythic-rhythm-dress-in-taupe.webp",
     },
     {
       name: "Karuna Mulberry Kutubaru Kebaya",
@@ -98,7 +89,7 @@ const CollectionsPage = () => {
       size: "L",
       available: false,
       category: "Nikah",
-      imageUrl: "/images/nikah-karuna-mulberry-kutubaru-kebaya.jpg",
+      imageUrl: "/images/nikah-karuna-mulberry-kutubaru-kebaya.webp",
     },
     {
       name: "Karuna Kebaya Kutubaru Marsala",
@@ -107,7 +98,7 @@ const CollectionsPage = () => {
       available: true,
       category: "Nikah",
       badge: "Rekomendasi Admin",
-      imageUrl: "/images/nikah-karuna-kebaya-kutubaru-marsala.jpg",
+      imageUrl: "/images/nikah-karuna-kebaya-kutubaru-marsala.webp",
     },
     {
       name: "Sadajiwa Kebaya in Navy",
@@ -115,16 +106,16 @@ const CollectionsPage = () => {
       size: "M",
       available: true,
       category: "Nikah",
-      imageUrl: "/images/nikah-sadajiwa-kebaya-in-navy.jpg",
+      imageUrl: "/images/nikah-sadajiwa-kebaya-in-navy.webp",
     },
     {
-      name: "Sadajiwa Kebaya Kartini in Plum",
+      name: "Sadajiwa Kebaya in Plum",
       price: 990000,
       size: "L",
       available: true,
       category: "Nikah",
       badge: "Best Seller",
-      imageUrl: "/images/nikah-sadajiwa-kebaya-kartini-in-plum.jpg",
+      imageUrl: "/images/nikah-sadajiwa-kebaya-in-plum.webp",
     },
   ];  
 
