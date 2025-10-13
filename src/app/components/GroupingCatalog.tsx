@@ -3,20 +3,20 @@ const GroupingCatalog = () => {
     {
       title: "Kebaya Nikah",
       desc: "Koleksi kebaya elegan untuk momen sakral pernikahan Anda.",
-      image: "/images/kebaya_nikah.jpg", // ganti sesuai gambar
-      href: "/catalog/nikah",
+      image: "/images/nikah-karuna-mulberry-kutubaru-kebaya.webp",
+      href: "/catalogs",
     },
     {
       title: "Kebaya Lamaran",
       desc: "Tampil menawan di hari lamaran dengan pilihan kebaya terbaik.",
-      image: "/images/kebaya_lamaran.jpg",
-      href: "/catalog/lamaran",
+      image: "/images/nikah-natuna-mythic-rhythm-dress-in-taupe.webp",
+      href: "/catalogs",
     },
     {
       title: "Kebaya Wisuda",
       desc: "Rayakan kelulusan dengan kebaya yang anggun dan stylish.",
-      image: "/images/kebaya_wisuda.jpg",
-      href: "/catalog/wisuda",
+      image: "/images/wisuda-dua-putri-raja-ular-kebaya-in-powder-pink-on-periwinkle.webp",
+      href: "/catalogs",
     },
   ];
 
@@ -35,11 +35,11 @@ const GroupingCatalog = () => {
             className="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition"
           >
             {/* Gambar */}
-            <div className="relative w-full h-56 sm:h-64 lg:h-72 overflow-hidden">
+            <div className="relative w-full h-72 sm:h-80 lg:h-96 overflow-hidden">
               <img
                 src={cat.image}
                 alt={cat.title}
-                className="w-full h-full object-cover object-top transform hover:scale-105 transition duration-300"
+                className="w-full h-full object-cover transform hover:scale-105 transition duration-300"
               />
             </div>
 
@@ -53,7 +53,7 @@ const GroupingCatalog = () => {
               </p>
               <a
                 href={cat.href}
-                className="mt-auto inline-block px-4 py-2 bg-pink-600 text-white text-sm sm:text-base rounded-lg hover:bg-pink-700 transition"
+                className="mt-auto inline-block px-4 py-2 bg-pink-400 text-white text-sm sm:text-base rounded-lg hover:bg-pink-500 transition"
               >
                 Lihat Koleksi
               </a>
