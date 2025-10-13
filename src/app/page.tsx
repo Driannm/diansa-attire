@@ -20,7 +20,7 @@ export default function Home() {
       {/* CTA */}
       <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
         <a
-          href="/collections"
+          href="/availibility"
           className="flex items-center justify-center px-6 py-3 rounded-lg bg-pink-400 text-white text-base font-semibold hover:bg-pink-500 transition"
         >
           <CalendarSearch className="mr-2 w-5 h-5" />
@@ -44,7 +44,7 @@ export default function Home() {
         <GroupingCatalog />
       </section>
 
-      <section className="mt-12">
+      <section id="alur-sewa" className="mt-12">
         <RentFlow />
       </section>
     </div>

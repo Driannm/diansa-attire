@@ -38,11 +38,13 @@ export default function RootLayout({
           {/* Konten utama */}
           <main className="mt-6">{children}</main>
 
-          <section className="mt-16 mb-20">
+          <section id="faq" className="mt-16 mb-20 scroll-mt-24">
             <FAQ />
           </section>
 
-          <Footer />
+          <section id="contact" className="mb-3 scroll-mt-24">
+            <Footer />
+          </section>
         </div>
       </body>
     </html>
