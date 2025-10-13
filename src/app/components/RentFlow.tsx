@@ -10,14 +10,14 @@ const steps = [
     subtitle: "Pilih model & tema",
     time: "infinity",
     desc: "Lihat koleksi kebaya berdasarkan kategori (Nikah, Lamaran, Wisuda). Gunakan filter ukuran, warna, atau budget.",
-    action: { href: "/kebaya", label: "Lihat Katalog" },
+    action: { href: "/catalogs", label: "Lihat Katalog" },
   },
   {
     title: "2. Cek Ketersediaan",
     subtitle: "Tanggal & ukuran",
     time: "5 menit",
-    desc: "Masukkan tanggal acara dan ukuran. Sistem akan memberi tahu apakah kebaya tersedia pada tanggal yang dipilih.",
-    action: { href: "/kebaya#cek-ketersediaan", label: "Cek Ketersediaan" },
+    desc: "Masukkan tanggal mulai - selesai acara, ukuran hingga kategori. Sistem akan memberi tahu apakah kebaya tersedia pada tanggal yang dipilih.",
+    action: { href: "/availibility", label: "Cek Ketersediaan" },
   },
   {
     title: "3. Reservasi / Booking",
@@ -83,7 +83,7 @@ export default function RentFlow() {
             >
               {/* Step Number */}
               <div className="flex items-center justify-between mb-4">
-                <div className="w-12 h-12 rounded-full bg-pink-600 text-white flex items-center justify-center font-bold text-lg shadow-md">
+                <div className="w-12 h-12 rounded-full bg-pink-400 text-white flex items-center justify-center font-bold text-lg shadow-md">
                   {idx + 1}
                 </div>
                 <span className="text-xs font-medium text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full flex items-center gap-1">
@@ -112,7 +112,7 @@ export default function RentFlow() {
               {step.action && (
                 <Link
                   href={step.action.href}
-                  className="inline-flex items-center justify-center w-full px-4 py-2.5 bg-pink-600 text-white text-sm font-medium rounded-lg hover:bg-pink-700 transition-colors duration-200"
+                  className="inline-flex items-center justify-center w-full px-4 py-2.5 bg-pink-400 text-white text-sm font-medium rounded-lg hover:bg-pink-500 transition-colors duration-200"
                 >
                   {step.action.label}
                   <svg
